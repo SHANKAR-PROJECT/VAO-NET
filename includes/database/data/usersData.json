@@ -6,7 +6,7 @@
         "gender": 2,
         "isBirthday": false,
         "money": 0,
-        "exp": 200,
+        "exp": 215,
         "createTime": {
             "timestamp": 1699270970568
         },
@@ -54,7 +54,7 @@
         "gender": 2,
         "isBirthday": false,
         "money": 0,
-        "exp": 19,
+        "exp": 23,
         "createTime": {
             "timestamp": 1699325229086
         },
@@ -150,7 +150,7 @@
         "gender": 1,
         "isBirthday": false,
         "money": 0,
-        "exp": 2,
+        "exp": 6,
         "createTime": {
             "timestamp": 1699482602369
         },
@@ -422,7 +422,7 @@
         "gender": 7,
         "isBirthday": false,
         "money": 0,
-        "exp": 3,
+        "exp": 4,
         "createTime": {
             "timestamp": 1699482606071
         },
@@ -438,7 +438,7 @@
         "gender": 2,
         "isBirthday": false,
         "money": 0,
-        "exp": 146,
+        "exp": 174,
         "createTime": {
             "timestamp": 1699482606282
         },

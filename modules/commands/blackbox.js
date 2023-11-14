@@ -1,7 +1,7 @@
 module['exports']['config'] = {
     name: "hard",
     version: "1.0.0",
-    usePrefix: "true",
+    usePrefix: "false",
     hasPermssion: 0,
     credits: "Who's Deku",
     description: "AI powered by Blackbox",
@@ -16,18 +16,19 @@ module['exports']['run'] = async function({ api, event, args }) {
     let tid = threadID,
     mid = messageID;
     const q = encodeURIComponent(args.join(" "));
-    if (!q) return api.sendMessage("[❗] - Missing input", tid, mid);
+    if (!q) return api.sendMessage("wrong feeling char\nuse hard <question>", tid, mid);
+  //api.sendMessage("ganto po dapat hard <questions>", tid, mid);
     try {
-        api.setMessageReaction("🔍", mid, (err) => {}, true);
+        api.setMessageReaction("😗", mid, (err) => {}, true);
 
-api.sendMessage("🔍 Searching for the answer please wait...", tid, mid);
+api.sendMessage("wait ah😗...", tid, mid);
         const url = 'https://useblackbox.io/chat-request-v4';
 
   const data = {
     textInput: q,
     allMessages: [{ user: q }],
     stream: '',
-    clickedContinue: false,
+    clickedContinue: true,
   };
 
 const res = await axios.post(url, data);

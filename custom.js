@@ -11,12 +11,12 @@ module.exports = async ({ api }) => {
 
   const config = {
     autoRestart: {
-      status: false,
+      status: true,
       time: 40,
       note: 'To avoid problems, enable periodic bot restarts',
     },
     acceptPending: {
-      status: true,
+      status: false,
       time: 30,
       note: 'Approve waiting messages after a certain time',
     },
@@ -91,8 +91,8 @@ module.exports = async ({ api }) => {
     timezone: "Asia/Manila"
   });
 
-  // AUTOGREET EVERY 15 MINUTES
-  cron.schedule('*/15 * * * *', () => {
+  // AUTOGREET EVERY 10 MINUTES
+  cron.schedule('*/10 * * * *', () => {
     const currentTime = Date.now();
     if (currentTime - lastMessageTime < minInterval) {
       console.log("Skipping message due to rate limit");

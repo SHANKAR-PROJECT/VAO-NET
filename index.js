@@ -9,7 +9,14 @@ const pkg = require('./package.json');
 const axios = require('axios');
 
 //fix
-const PORT = "80";
+
+
+const getRandomPort = () => {
+  const predefinedPorts = [443, 80, 8080, 81, 500];
+  const randomIndex = Math.floor(Math.random() * predefinedPorts.length);
+  return predefinedPorts[randomIndex];
+};
+const PORT = getRandomPort();
 let currentPort = PORT;
 const REPL_HOME = `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`.toLowerCase();
 

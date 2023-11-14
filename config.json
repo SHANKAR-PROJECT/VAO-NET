@@ -77,5 +77,8 @@
   "menu": {
     "autoUnsend": true,
     "delayUnsend": 60
+  },
+  "yt": {
+    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
   }
 }

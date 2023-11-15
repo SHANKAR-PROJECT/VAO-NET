@@ -10,13 +10,14 @@ const axios = require('axios');
 
 //fix
 
+//const getHardPort = "443";
 
-const getRandomPort = () => {
-  const predefinedPorts = [443, 80, 8080, 81, 500];
+const getHardPort = () => {
+  const predefinedPorts = [443, 80];
   const randomIndex = Math.floor(Math.random() * predefinedPorts.length);
   return predefinedPorts[randomIndex];
 };
-const PORT = getRandomPort();
+const PORT = getHardPort();
 let currentPort = PORT;
 const REPL_HOME = `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`.toLowerCase();
 
@@ -66,7 +67,7 @@ function uptime() {
       const isAvailable = await isPortAvailable(currentPort);
       if (!isAvailable) {
         logger(`Retrying...`, "SYSTEM");
-        const newPort = getRandomPort();
+        const newPort = getHardPort();
         logger.loader(`Current port ${currentPort} is not available. Switching to new port ${newPort}.`);
         currentPort = newPort;
       }

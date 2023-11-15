@@ -11,7 +11,7 @@ module.exports = async ({ api }) => {
 
   const config = {
     autoRestart: {
-      status: true,
+      status: true, //False lang 
       time: 40,
       note: 'To avoid problems, enable periodic bot restarts',
     },

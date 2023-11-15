@@ -20,33 +20,6 @@
             "rankup": true
         }
     },
-    "6558944120901427": {
-        "threadInfo": {
-            "threadID": "6558944120901427",
-            "threadName": "HAKDAWGV5",
-            "emoji": "💫",
-            "adminIDs": [
-                {
-                    "id": "100012874754515"
-                }
-            ],
-            "participantIDs": [
-                "61551203617318",
-                "61552687692089",
-                "100012874754515",
-                "100053894640185",
-                "100091393147158"
-            ],
-            "isGroup": true
-        },
-        "createTime": {
-            "timestamp": 1699325226281
-        },
-        "data": {
-            "timestamp": 1699325226281,
-            "rankup": true
-        }
-    },
     "24200619976220621": {
         "threadInfo": {
             "threadID": "24200619976220621",

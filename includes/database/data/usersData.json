@@ -6,7 +6,7 @@
         "gender": 2,
         "isBirthday": false,
         "money": 0,
-        "exp": 215,
+        "exp": 216,
         "createTime": {
             "timestamp": 1699270970568
         },
@@ -310,7 +310,7 @@
         "gender": 2,
         "isBirthday": false,
         "money": 0,
-        "exp": 1,
+        "exp": 3,
         "createTime": {
             "timestamp": 1699482604239
         },
@@ -598,7 +598,7 @@
         "gender": 2,
         "isBirthday": false,
         "money": 0,
-        "exp": 40,
+        "exp": 41,
         "createTime": {
             "timestamp": 1699591786539
         },

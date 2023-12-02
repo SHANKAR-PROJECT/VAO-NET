@@ -54,6 +54,7 @@
     "gradient": "^0.2.0",
     "gradient-string": "^2.0.2",
     "https-proxy-agent": "^7.0.2",
+    "i": "^0.3.7",
     "jimp": "^0.22.10",
     "lyrics-finder": "^21.7.0",
     "moment": "^2.29.4",

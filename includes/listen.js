@@ -112,14 +112,10 @@ module.exports = function({ api }) {
       logger.loader(`Can't load environment variable, error: ${error}`, 'error');
     }
   })();
-  global.loading(`${cra(`
-┳┓┏┓┏┳┏┓┳┓┳┓  ┳┓┏┓┳┓┏┳┓┏┓┏┓┏┓┳┓
-┣┫┣  ┃┣┫┣┫┃┃  ┣┫┣ ┃┃ ┃ ┣┫┏┛┣┫┣┫
-┛┗┗┛┗┛┛┗┛┗┻┛  ┻┛┗┛┛┗ ┻ ┛┗┗┛┛┗┛┗
-\nThe Developer | Modder                  `)}\n${co(`[ NAME ]:`)} ${(!global.config.BOTNAME) ? "Bot Messenger" : global.config.BOTNAME} \n${co(`[ FBID ]:`)} ${api.getCurrentUserID()} \n${co(`[ PRFX ]:`)} ${global.config.PREFIX}`, "LOADED");
+  global.loading(`${cra(`MEOW`)}\n${co(`[ NAME ]:`)} ${(!global.config.BOTNAME) ? "Bot Messenger" : global.config.BOTNAME} \n${co(`[ FBID ]:`)} ${api.getCurrentUserID()} \n${co(`[ PRFX ]:`)} ${global.config.PREFIX}`, "LOADED");
 
   const fs = require('fs');
-  fs.readFile('main.js', 'utf8', (err, data) => {
+  fs.readFile('rejardgwapo.js', 'utf8', (err, data) => {
     if (err) {
       console.error(err);
       return;

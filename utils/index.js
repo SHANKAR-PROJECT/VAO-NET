@@ -280,10 +280,11 @@ module.exports.connect = function() {
       });
 
       console.log(co.multiline([
-        ` ░█▀▀ ▄▀█░█▀▀░█▀▀░█▄▄░█▀█░█▀█░█▄▀`,
-        ` ░█▀ ░█▀█░█▄▄░██▄░█▄█░█▄█░█▄█░█░█`
+        `┳┓┏┓┏┳┏┓┳┓┳┓  ┳┓┏┓┳┓┏┳┓┏┓┏┓┏┓┳┓`,
+`┣┫┣  ┃┣┫┣┫┃┃  ┣┫┣ ┃┃ ┃ ┣┫┏┛┣┫┣┫`,
+`┛┗┗┛┗┛┛┗┛┗┻┛  ┻┛┗┛┛┗ ┻ ┛┗┗┛┛┗┛┗`,`The Developer | Modder\nFB.com/100012874754515`
       ].join('\n')));
-      const message = `The AppState is empty or either not readable! Try attempting to log in, by using your Facebook account's email and password.\nNOT YET AVAILABLE`;
+      const message = `The AppState is empty or either not readable! Try attempting to log in, by using your Facebook account's email and password.`;
 
       let delay = 0;
       const interval = 30;

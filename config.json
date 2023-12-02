@@ -28,7 +28,7 @@
   "APPSTATEPATH": "appstate.json",
   "DEL_FUNCTION": false,
   "ADD_FUNCTION": true,
-  "CONNECT_LOG": true,
+  "CONNECT_LOG": false,
   "FCAOption": {
     "forceLogin": false,
     "listenEvents": true,

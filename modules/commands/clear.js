@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermission: 0,
   credits: "Kshitiz", 
   description: "unsent the message sent by the bot",
-  usePrefix: false,
+  usePrefix: "true",
   commandCategory: "boxchat",
   usages: "clear",
   cooldowns: 10,
